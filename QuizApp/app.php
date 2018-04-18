@@ -605,9 +605,9 @@
       <!-- Connect to server -->
      <?php
      $servername = "localhost";
-     $username = "root";
-     $password = "bollux39";
-     $dbname = "cs230";
+     $username = "harry";
+     $password = "";
+     $dbname = "webdev";
      ini_set('display_errors', 1);
 
     // Create connection
@@ -616,7 +616,7 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    $sql = "SELECT id, Name, Attempt, Score, dates FROM Assignment4_Quiz;";
+    $sql = "SELECT id, Name, Attempt, Score, dates FROM Quiz_Results;";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
