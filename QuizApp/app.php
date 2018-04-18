@@ -7,7 +7,7 @@
 <head>
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-  <title>CS230 Assignment 4</title>
+  <title>Quiz App</title>
   <script type="text/javascript" src="script.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css">
 </head>
