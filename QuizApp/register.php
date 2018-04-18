@@ -1,7 +1,7 @@
 <?php include('process.php'); ?>
 <html>
 <head>
-  <title>CS230 A4 Register</title>
+  <title>Quiz Register</title>
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
