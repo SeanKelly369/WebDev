@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `Quiz_Results`
 --
 
-CREATE TABLE `Assignment4_Quiz` (
+CREATE TABLE `Quiz_Results` (
   `Name` varchar(80) NOT NULL,
   `Attempt` int(4) NOT NULL,
   `Score` varchar(4) NOT NULL,
