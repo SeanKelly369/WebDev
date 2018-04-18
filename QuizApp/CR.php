@@ -1,8 +1,8 @@
  <?php
  $servername = "localhost";
- $username = "root";
- $password = "bollux39";
- $dbname = "cs230";
+ $username = "harry";
+ $password = "";
+ $dbname = "webdev";
  ini_set('display_errors', 1);
 
 // Create connection
