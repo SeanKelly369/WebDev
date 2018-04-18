@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `cs230`
+-- Database: `webdev`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `Assignment4_Quiz`
+-- Table structure for table `Quiz_Results`
 --
 
 CREATE TABLE `Assignment4_Quiz` (
@@ -35,10 +35,10 @@ CREATE TABLE `Assignment4_Quiz` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `Assignment4_Quiz`
+-- Dumping data for table `Quiz_Results`
 --
 
-INSERT INTO `Assignment4_Quiz` (`Name`, `Attempt`, `Score`, `dates`, `id`) VALUES
+INSERT INTO `Quiz_Results` (`Name`, `Attempt`, `Score`, `dates`, `id`) VALUES
 ('Willy Ford', 1, '75%', '2018-03-15 18:04:08', 1),
 ('Reggie Johnson', 1, '65%', '2018-03-15 18:08:07', 2),
 ('Gregory Smith', 2, '80%', '2018-03-15 18:10:28', 3),
@@ -51,9 +51,9 @@ INSERT INTO `Assignment4_Quiz` (`Name`, `Attempt`, `Score`, `dates`, `id`) VALUE
 --
 
 --
--- Indexes for table `Assignment4_Quiz`
+-- Indexes for table `Quiz_Results`
 --
-ALTER TABLE `Assignment4_Quiz`
+ALTER TABLE `Quiz_Results`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -61,9 +61,9 @@ ALTER TABLE `Assignment4_Quiz`
 --
 
 --
--- AUTO_INCREMENT for table `Assignment4_Quiz`
+-- AUTO_INCREMENT for table `Quiz_Results`
 --
-ALTER TABLE `Assignment4_Quiz`
+ALTER TABLE `Quiz_Results`
   MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
