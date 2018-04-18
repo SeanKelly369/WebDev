@@ -15,11 +15,11 @@ if ($conn->connect_error) {
 
 // prepare and bind
 if($_POST['action'] == 'Submit'){
-	$stmt = $conn->prepare("INSERT INTO Assignment4_Quiz (Name, Attempt, Score, dates) VALUES (?, ?, ?, ?)");
+	$stmt = $conn->prepare("INSERT INTO Quiz_Results (Name, Attempt, Score, dates) VALUES (?, ?, ?, ?)");
 $stmt->bind_param("siss", $Name, $Attempt, $Score, $dates);
 }
 else if($_POST['action'] == 'update'){
-	$stmt = $conn ->prepare("UPDATE Assignment4_Quiz
+	$stmt = $conn ->prepare("UPDATE Quiz_Results
 SET Name = ?, Attempt = ?, Score = ?, dates = ?
 WHERE id = ?;");
 $stmt->bind_param("sisis", $Name, $Attempt, $Score, $dates);
