@@ -1,5 +1,5 @@
 <?php
-	$db = mysqli_connect('localhost', 'root', 'bollux39', 'cs230');
+	$db = mysqli_connect('localhost', 'harry', '', 'webdev');
 
 	if (isset($_POST['username_check'])) {
 		$username = $_POST['username'];
